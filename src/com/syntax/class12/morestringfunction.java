@@ -6,6 +6,7 @@ public class morestringfunction {
 		// TODO Auto-generated method stub
 		System.out.println("----Replace() FUNCTION----->");
 		//REPLACE OLD VALUe with need value
+		String new
 		
 				
 

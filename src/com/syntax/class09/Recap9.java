@@ -1,13 +1,13 @@
 package com.syntax.class09;
  public class Recap9{
 	 public static void main(String[] args) {
-		 //0 dan 99 a kadar sayi yazdirma
+		 //10 dan 99 a kadar sayi yazdirma
 		 for(int i=1; i<=9;i++) {
 			 for(int j=0; j<=9;j++  ) {
 				 System.out.println(i+""+j);
 			 }
 		 }
-		 //saati yazdirma
+		 //saati yazdirma (inner loop minute temsil ediyr)
 	
 		 for(int i=0; i<24;i++) {
 			
@@ -23,17 +23,17 @@ package com.syntax.class09;
 			 }
 		 System.out.println("--------------->");
 		 // using nested loops to print car odometer
-		 for(int i=0;i <=9;i++) {
-			 for(int y=0;y<=9;y++) {
-				 for(int z=0;z<=9; z++) {
-					 for(int x=0; x<=9; x++) { 
-						 System.out.println(i+""+y+""+z+""+x);
-					 }
-				 }
-			 }
-		 }
-		 
-	 
+//		 for(int i=0;i <=9;i++) {
+//			 for(int y=0;y<=9;y++) {
+//				 for(int z=0;z<=9; z++) {
+//					 for(int x=0; x<=9; x++) { 
+//						 System.out.println(i+""+y+""+z+""+x);
+//					 }
+//				 }
+//			 }
+//		 }
+//		 
+//	 
 	 
 	 }
 			 }

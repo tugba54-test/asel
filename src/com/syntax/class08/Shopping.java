@@ -2,7 +2,7 @@ package com.syntax.class08;
 
 import java.util.Scanner;
 
-public class task3 {
+public class Shopping {
 
 	public static void main(String[] args) {
 		   //Write a program to ask a user to enter item they want to buy and the price of that item. 
