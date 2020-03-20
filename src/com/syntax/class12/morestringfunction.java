@@ -10,7 +10,7 @@ public class morestringfunction {
 		
 				
 
-		System.out.println("Replace all function");
+		//syso("Replace all function");
 		
 		String str="Phone number is 1234567890";
 		System.out.println(str);

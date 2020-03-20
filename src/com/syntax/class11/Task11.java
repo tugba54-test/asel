@@ -6,7 +6,7 @@ public class Task11 {
 		// TODO Auto-generated method stub
 		String[][] cars= {
 				{"American","German","Korean","Italian"},
-				{"bilmiyorum","Dodge","Kreancars","Italiancar"},
+				{"bilmiyorum","Dodge","Koreancars","Italiancar"},
 		};
 		int total=0;
 		for(int i=0;i <cars.length;i++) {

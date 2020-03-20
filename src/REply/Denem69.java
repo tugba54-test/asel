@@ -16,6 +16,8 @@ public class Denem69 {
 		      }
 		      System.out.println();
 		    }
+		    String s1 = "hello";
+		    System.out.println(s1.isEmpty());
 		   
 		}
 		

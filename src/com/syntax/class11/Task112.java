@@ -11,6 +11,8 @@ public class Task112 {
 		String[][] countries= {
 				{"North","America","countries","europe"},
 				{"Asian","African","Germany"},
+				{"canada","meksika","USA"},
+				{"morocco","south africa","namibia","uganda"}
 		};
 		for(int i=0;i <countries.length;i++) {
 			for(int y=0;y<countries[i].length;y++) {

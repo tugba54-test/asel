@@ -9,7 +9,10 @@ public class Recap11 {
 				{"mango","apple","banana","kiwi"},
 				{"milk","cheese","yogurt"}
 		};
+		//get all values from 2D array
+		//loop through rows
 		for(int i=0; i<groceries.length;i++) {
+			//loop through columns
 			for(int y=0; y<groceries[i].length;y++) {
 				System.out.print(groceries[i][y]+" ");
 			}System.out.println();
@@ -20,6 +23,6 @@ public class Recap11 {
 			System.out.print(items+" ");
 		}System.out.println();
 
-	}
-	}
+		}
+	} 
 }

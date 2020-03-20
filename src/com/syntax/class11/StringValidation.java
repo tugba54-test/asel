@@ -9,20 +9,20 @@ public class StringValidation {
 		
 		//to compare 2 Strings
 		System.out.println("---equals() equalsIgnoreCase() Function");
-		System.out.println(str1.contentEquals(str2));
+		System.out.println(str1.equals(str2));
     //false cunku slerin biri buyuk
 		System.out.println(str1.equalsIgnoreCase(str2));
 		// buyuk kucuk durumunu ignore case yaptik
 		
 		String expected="Home- Syntax Technologies";
-		String actual="Home- Syntax Technologies";
-		if (actual.contentEquals(expected)) {
+		String actual="Home- Syntax Technologies   ";
+		if (actual.equals(expected)) {
 			System.out.println("test case pass. titles are matched");
 		}else {
 			System.out.println("Test case fails,titles are not matched");
 		}
 		System.out.println("---First trim and then Compare---");
-		if(actual.trim().contentEquals(expected)) {
+		if(actual.trim().equals(expected)) {
 			System.out.println("test case pass. titles are matched");
 		
 	}else {
