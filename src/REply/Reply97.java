@@ -24,18 +24,18 @@ public class Reply97 {
 		System.out.print("In:");
 		String givenString = inp.nextLine();
 		String reversed="";
-		for(int i=(givenString.length()-1);i>=0;i++) {
+		for(int i=(givenString.length()-1);i>=0;i++) 
 			reversed=reversed+givenString.charAt(i);
 			
-		}
-		if (givenString.equals(reversed)) {
+		
+		if (givenString.equalsIgnoreCase(reversed)) 
 	         System.out.println("true");
 	     
 
 		
-		}else {   
+		else   
 	         System.out.println("false");
-		}
+		
 }
 }	
 

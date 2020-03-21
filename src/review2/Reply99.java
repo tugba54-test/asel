@@ -11,7 +11,7 @@ public class Reply99 {
 		    Scanner inp = new Scanner(System.in);
 		    System.out.print("In:");
 		    String s = inp.nextLine();
-		    //write your code below
+		    
 		    
 		    
 
