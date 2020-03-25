@@ -6,6 +6,8 @@ public class LocalVraiables {
 		
 	}
 	void anothrName() {
+		String name="July"
+	}
 	public static void main(String[] args) {
 		//System.out.println(name);CE name wont be visible to another method
 		//since its scope only within nameInside method
