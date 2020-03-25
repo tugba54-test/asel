@@ -7,8 +7,8 @@ public class Question3 {
         int f1,f2,f3;
 		 f1=0; f2=1;
 	
-		for(int i=0;i<10;i++) {
-			System.out.println(f1+" ");	
+		for(int i=0;i<=10;i++) {
+			System.out.print(f1+" ");	
 			f3=f1+f2;
 			
 			f1=f2;
@@ -22,11 +22,11 @@ public class Question3 {
         int n2=1;
         int sum=0;
         
-        System.out.print(n1+"   "+n2);
+        
         for(int i=1;i<=input; i++) {
         	
         	
-           System.out.print("   "+sum);
+           System.out.print(n1+"  ");
            sum=n1+n2;
            
            n1=n2;
