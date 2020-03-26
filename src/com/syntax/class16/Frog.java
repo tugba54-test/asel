@@ -10,7 +10,7 @@ class ABC{
 		return age;
 	}
 	public void setName(String name) {
-		this.name=name;//name=newName;(name private degilsebu sekilde yazabilirz)
+		this.name=name;//name=newName;(name private degilse bu sekilde yazabilirz)
 		
 	}
 	public void setAge(int age) {
@@ -33,7 +33,8 @@ class ABC{
 //		frog1.age=3;
 		
 		frog1.setName("Niloya");
-		frog1.setAge(1);
+		frog1.setName("Berti");
+		frog1.setAge(3);
 	System.out.println(frog1.getName());
 	
 		System.out.println(frog1.getAge());

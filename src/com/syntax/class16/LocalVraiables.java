@@ -6,7 +6,7 @@ public class LocalVraiables {
 		
 	}
 	void anothrName() {
-		String name="July"
+		String name="July";
 	}
 	public static void main(String[] args) {
 		//System.out.println(name);CE name wont be visible to another method
@@ -21,10 +21,10 @@ public class LocalVraiables {
 		}
 		//System.out.println(answer);CE: scope of variable answer is not visible outside of
 		for(int i=1;i<=5;i++) {
-			System.out.println(i);
+			System.out.print(i+"  "+"1");
 		}
 		for(int i=1;i<=5;i++) {
-			System.out.println(i);
+			System.out.print(i+" "+"9");
 		}
 		String name="Gulbahar";
 	}
