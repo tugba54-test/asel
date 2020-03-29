@@ -1,12 +1,8 @@
 package com.syntax.class18;
 
 public class ConstructorInfo {
-	
-	
-	
-	
 	//to create a constructor: 1.no return type(not even void)
-	                           // 2. name musr be same as class name
+	                           // 2. name must be same as class name
 	ConstructorInfo(){
 		System.out.println("i am a constructor");
 		

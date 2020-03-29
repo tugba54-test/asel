@@ -9,13 +9,14 @@ public class ConstructorDemo {
 	ConstructorDemo(String str){
 		System.out.println("I am aconstructor with 1 String parameter "+str);
 	}
+
 	ConstructorDemo(int num){
 		System.out.println("I am a costructor with 1 integer value=" +num);
 	}
 	ConstructorDemo(String str,int num){
 		System.out.println("I am constractor with 2 parameters :"+str+"&"+num);
 	}
-	void ConstructorDemo() {
+	void ConstructorDemo() {//as soon as we add return type---->It becomes method
 		System.out.println("I do not know who am i i am a void method");
 	}
 	public static void main(String[] args) {
