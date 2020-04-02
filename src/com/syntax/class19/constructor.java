@@ -2,7 +2,8 @@ package com.syntax.class19;
 
 public class constructor {
 	constructor(){
-		this(1);
+		this(1);//always must be first line inside the constructor
+		//this(1,2);CE :this is located on 2 line
 		System.out.println("hi");
 	}
 	constructor(int x){
