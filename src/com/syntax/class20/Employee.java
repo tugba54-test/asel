@@ -4,10 +4,16 @@ public class Employee {
 	static String company;
 	int empNumber;
 	double salary;
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	void getPaid() {
+		System.out.println("employee get  "+salary);}
+	static void work() {
+		System.out.println("Employee work at " + company);
 	}
-
 }
+		
+		
+		
+		
+	
+
+	
