@@ -26,7 +26,8 @@ public class OverloadingMain {
 		main("hi",5);
 		
 		//int[] arr=new int[2];
-		main (new int[2]);
+
+
 
 	}
 

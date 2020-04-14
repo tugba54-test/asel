@@ -23,15 +23,21 @@ class SyntaxStudent extends Student{
 		
 System.out.println(name+" likes to read "+btypes+" books "  );
 	}
-	
+	@Override
 	void study(String name,String work,int Id) {
 		System.out.println(name+ " "+Id+" studies "+work);
 	}	
-}
+	public void accesStudentOverriddenMethod() {
+		this.study(name, work, Id);
+		super.study(name, work, Id);
+	}
+
 class CollegeStudent extends Student{
+	
 	void read(String btypes,String name) {
 	System.out.println(name+" likes to read "+btypes+" loves "  );
 	}
+
 	void study(String name,int Id) {
 		System.out.println(name+ " "+Id+" studies calculus");
 	}

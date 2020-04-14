@@ -8,12 +8,12 @@ public class WebDriver {
 }
 class FireFoxDriver extends WebDriver{
 	public void open() {
-		System.out.println("Opening  Firefoxbrowser");
+		System.out.println("Opening  Firefox browser");
 	}
 }
 class ChromeDriver extends WebDriver{
 	public void open() {
-		System.out.println("Opening  Chromebrowser");
+		System.out.println("Opening  Chrome browser");
 	}
 }
 class InternetExplorerDriver extends WebDriver{

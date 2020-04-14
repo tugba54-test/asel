@@ -23,10 +23,10 @@ public class Banktest {
 	    
 	    
 	    System.out.println("------Parent class-------");
-	   Child child=new Child();
+	  // Child child=new Child();
 		//child.hello();
-	}
-}
+	
+
 	    
 	    
 	    

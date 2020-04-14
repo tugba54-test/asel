@@ -1,6 +1,11 @@
 package com.syntax.class23;
-
-public class Computer {
+class SmartMachine {
+	public void smart(){
+		System.out.println("i am a smart machine");
+	}
+	
+}
+public class Computer extends SmartMachine {
 	String brand;
 	void display(){
 		System.out.println("it has some software system");
