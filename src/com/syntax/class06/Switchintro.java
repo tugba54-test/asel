@@ -8,7 +8,7 @@ public class Switchintro {
 		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
 		System.out.println("please enter gender");
-		gender=input.hasNext().charAt(0);
+		 char gender=input.nextLine().charAt(0);
 		
 		String genderType;
 		switch (gender) {
@@ -19,7 +19,7 @@ public class Switchintro {
 			genderType="female";
 			break;
 			default:
-				gendertype="unknown";
+				genderType="unknown";
 			
 		}
 		System.out.println("your gender is"+genderType);

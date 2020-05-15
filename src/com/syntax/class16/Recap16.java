@@ -4,13 +4,13 @@ public class Recap16 {
 	
 
 	
-		// create a method that will accept array of integers and return max element
-		int getLargestNumber(int[] array);
-		int largest=array[0];
+	//create a method that will accept array of integers and return max element from that array
+		int getLargestNumber(int[] array) {
+			int largest=array[0];
 		
 		for (int i=1;i<array.length;i++) {
 			if(array[i]>largest) {
-				largest=array[i]
+				largest=array[i];
 			}
 		}
  return largest;
@@ -32,4 +32,4 @@ public class Recap16 {
 			System.out.println(word+"   ");
 
 }
-}
+}}

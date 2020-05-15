@@ -18,9 +18,9 @@ public class Aritmeticoperators {
 		
 		
 		 
-		float a=8.2f;
-		    float square=(a.a)f;
-		    System.out.print("The multiplication of "+ a+" value with itself is equal to "+square);
+		float ab=8.2f;
+		    float square=(ab*ab);
+		    System.out.print("The multiplication of "+ ab+" value with itself is equal to "+square);
 		  }
 
 		
@@ -33,4 +33,4 @@ public class Aritmeticoperators {
 
 	}
 
-}
+

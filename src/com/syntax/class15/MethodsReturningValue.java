@@ -21,8 +21,8 @@ public class MethodsReturningValue {
 		
 		MethodsReturningValue newl=new MethodsReturningValue();
 		int num= newl.largest(25,67);
-		boolean f
-		System.out.println("Largest number "+num+" is odd number "+isOdd);
+		boolean flag = newl.isOdd(num);
+		System.out.println("Largest number " + num + " is odd number:" + flag);
 		
 
 	}

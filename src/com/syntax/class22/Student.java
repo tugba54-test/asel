@@ -28,6 +28,7 @@ System.out.println(name+" likes to read "+btypes+" books "  );
 		System.out.println(name+ " "+Id+" studies "+work);
 	}	
 	public void accesStudentOverriddenMethod() {
+		String name;
 		this.study(name, work, Id);
 		super.study(name, work, Id);
 	}

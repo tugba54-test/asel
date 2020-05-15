@@ -4,8 +4,9 @@ public class MethodPalndrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 MthodEvenOdd text=new  MthodEvenOdd();
-		 text.plndrm(hannah);
+		MethodPalndrome  text=new  MethodPalndrome ();
+		 String word="hannah";
+		 text.plndrm(word);
 
 	}
 	void plndrm(String word) {
@@ -20,7 +21,7 @@ public class MethodPalndrome {
 			}
 		}
 	
-		
+	
 	}
 	
 	

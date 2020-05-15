@@ -17,16 +17,8 @@ public class question7 {
 		//System.out.println(even);
 	for (a=0; a<27; a=a+1){
 		if(a%2!=0) {
-			odd=odd+a
-			
-			
-		
-		
-		
-	}	
-		
-		
-		
+			odd=odd+a;
+		}
 		System.out.println(odd);
 		
 	}

@@ -14,12 +14,9 @@ public class TwoDimensionalArray {
 		numbers[1][0]=5;
 		numbers[1][1]=10;
 		numbers[1][2]=15;
-		numbers[1][3]=;
+		numbers[1][3]=30;
 		
-		
-		
-		
-		
+	
 		
        int [][]nums= {//array of 3 single dimensional arrays
 				{10,20,30,40},

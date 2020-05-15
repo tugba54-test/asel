@@ -13,15 +13,17 @@ public class BankTest {
 		System.out.println("---Bank2 class Test--------");
 		BOA boa=new BOA();
 		boa.depositMoney();
-		boa.financialTransactions();
+		
 		boa.GiveCredit();
 		boa.trust();
 		boa.WithDraw();
+		
 		PNC pnc=new PNC();
 		pnc.depositMoney();
-		pnc.financialTransactions();
+		
 		pnc.trust();
 		pnc.WithDraw();
+		
 		Bank2 bank=new BOA();
 		bank.depositMoney();
 		bank.trust();

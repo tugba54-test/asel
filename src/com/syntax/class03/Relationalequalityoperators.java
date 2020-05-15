@@ -13,10 +13,15 @@ public class Relationalequalityoperators {
 		System.out.println(i!=y);
 		
 		System.out.println("----------------");
-		
+		int a=5;
+		int b=9;
 		boolean result=a>b;
 		boolean result1=a==b;
-		boolean result2=a!=b!
+		boolean result2=a!=b;
+		System.out.println("Result is "+result);
+		System.out.println("Result1 is "+result1);
+		System.out.println("Result2 is "+result2);
+
 		
 	}
 

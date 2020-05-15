@@ -3,7 +3,7 @@ package task;
 public class CencorLetters {
 	String censorLetter(String a,char b) {
 		
-		String c=re
+		String c=re;
 		
 		return c;
 	}

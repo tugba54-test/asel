@@ -1,8 +1,8 @@
 package com.syntax.class20;
 
 public class Employee {
-	static String company;
-	int empNumber;
+  public static String company;
+	protected int empNumber;
 	double salary;
 	void getPaid() {
 		System.out.println("employee get  "+salary);}

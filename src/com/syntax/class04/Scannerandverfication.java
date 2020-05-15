@@ -19,9 +19,9 @@ public class Scannerandverfication {
 		}else if(num2==num1) {
 			System.out.println(num2+" is equal to "+ num1);
 		}else {
-			System.out.println(num2+"is larger than "+num1);()
+			System.out.println(num2+"is larger than "+num1);
 		}
-		 
+	 
 
 	}
 

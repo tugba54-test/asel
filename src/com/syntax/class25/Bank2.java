@@ -1,8 +1,8 @@
 package com.syntax.class25;
-interface Trustable{
+ interface Trustable1{
 	void trust();
 }
-public interface  Bank2 extends Trustable{
+public interface  Bank2 extends Trustable1{
 	void depositMoney();
 	void WithDraw();
 	
@@ -12,7 +12,7 @@ class PNC extends Finance implements Bank2{
 
 	@Override
 	public void depositMoney() {
-		System.out.println("PNC can deposit your moeny");
+		System.out.println("PNC can deposit your money");
 		
 	}
 
@@ -26,16 +26,12 @@ class PNC extends Finance implements Bank2{
 	public void trust() {
 		System.out.println("PNC can trustable bank");
 		
-	}
-
-	public void financialTransactions() {
-		// TODO Auto-generated method stub
-		
 	}}
+
 interface CreditUnion{
 	void GiveCredit();
 }
-class BOA extends Finance implements Bank2,CreditUnion{
+class BOA extends Finance1 implements Bank2,CreditUnion{
 
 	@Override
 	public void depositMoney() {
@@ -58,7 +54,7 @@ System.out.println("BOA give Credit");
 	}
 	
 }
-class Finance{
+ class Finance1{
 	void financialTransactions() {
 		System.out.println("you can make financial transactions ");
 	}

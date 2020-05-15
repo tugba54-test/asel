@@ -1,6 +1,8 @@
 package com.syntax.class02;
 
 public class Trying {
+	public static void main(String[] args) {
+		
 	
         int myNumber=3;
 	    int stepOne=myNumber*myNumber;
@@ -13,7 +15,7 @@ public class Trying {
 	    System.out.println("The magic number is "+stepSix);
       
   
-
+}}
 
 
 
